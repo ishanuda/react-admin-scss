@@ -4,9 +4,9 @@ This application is designed with pure react and css.
 
 ## Used Libraries
 
-> react
-> react-router-dom
-> scss
+> react  
+> react-router-dom  
+> scss  
 
 # Video Reference
 
