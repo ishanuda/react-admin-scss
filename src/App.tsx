@@ -12,9 +12,12 @@ import Products from "./pages/products/Products";
 import Footer from "./components/Footer/Footer";
 
 function App() {
+
   const Layout = () => {
+    
     return (
       <div className="main">
+
         <Navbar />
 
         <div className="container">
@@ -27,6 +30,7 @@ function App() {
         </div>
 
         <Footer />
+        
       </div>
     );
   };

@@ -1,16 +1,26 @@
+@use '../../styles/variables' as *;
+
 .footer {
+
   display: flex;
+  padding: 5px 30px;
+  width: 100%;
+
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  background-color: $soft-bg;
+  position: fixed;
+  bottom: 0;
+  z-index: 20;
 
   span {
+    font-size: 12px;
     &:first-child {
       font-weight: bold;
     }
 
     &:last-child {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
 }

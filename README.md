@@ -7,6 +7,7 @@ This application is designed with pure react and css.
 > react  
 > react-router-dom  
 > scss  
+> [rechart](https://recharts.org/)  
 
 # Video Reference
 

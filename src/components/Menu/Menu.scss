@@ -3,6 +3,7 @@
 .menu {
   
   .item {
+
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -12,6 +13,7 @@
       font-size: 12px;
       font-weight: 200;
       color: $soft-color;
+      text-transform: uppercase;
     }
 
     .list-item {
@@ -24,6 +26,9 @@
       &:hover {
         background-color: $soft-bg;
       }
+
     }
+
   }
+  
 }
